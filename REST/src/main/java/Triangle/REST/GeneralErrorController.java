@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @ControllerAdvice
-public class CustomErrorController implements ErrorController {
+public class GeneralErrorController implements ErrorController {
 
     @RequestMapping("/error")
     public ResponseEntity<String> handleError() {

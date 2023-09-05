@@ -26,7 +26,7 @@ public class TriangleController {
         if (a == b && b == c) {
             return ResponseEntity.ok("EQUILATERAL");
         } else if (a == b || b == c || a == c) {
-            return ResponseEntity.ok("ISOCELES");
+            return ResponseEntity.ok("ISOSCELES");
         } else {
             return ResponseEntity.ok("SCALENE");
         }
